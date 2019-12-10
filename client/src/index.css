@@ -52,7 +52,8 @@ code {
 .about {
   width: 70vw;
   display: inline-block;
-  margin-top: 10vh
+  margin-top: 10vh;
+  text-align: center;
 }
 
 
@@ -66,7 +67,10 @@ code {
   
 }
 
-
+.jensen-prof {
+  max-width: 400px;
+  height: auto
+}
 
 
 

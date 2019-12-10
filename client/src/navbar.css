@@ -9,7 +9,7 @@
   }
 
   .name-logo {
-      font-size: 30px;
+      font-size: 35px;
       margin-left:1vw; 
       text-align: center
   }
@@ -40,6 +40,7 @@
 
     .name-logo {
         margin-left:1vw; 
+        font-size: 35px
     }
 
     .page-link {
@@ -47,7 +48,7 @@
         text-decoration: none;
         color: black;
         display: inline-block;
-        margin-left:2vw;
+        margin-left:3vw;
         
     }
     
@@ -67,7 +68,7 @@
 
     .name-logo {
         margin-left:1vw; 
-        font-size: 30px
+        font-size: 35px
     }
 
     .page-link {
@@ -75,7 +76,7 @@
         text-decoration: none;
         color: black;
         display: block;
-        margin-left:2vw;
+        margin-left:0vw;
         
     }
     
