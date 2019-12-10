@@ -1,0 +1,50 @@
+.name-logo {
+    font-size: 25px;
+    margin-left:5vw 
+}
+
+.page-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-left:5vw 
+}
+
+.navbar {
+    display: block;
+    position: fixed;
+    height: 100%;
+    padding-top: 30vh;
+    text-align: left
+  }
+
+
+
+  
+
+@media screen and (max-width: 800px) {
+    .navbar {
+      display: block;
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding-top: 0vh;
+      text-align: center  
+      
+    }
+
+    .name-logo {
+        margin-left:0vw 
+    }
+
+    .page-link {
+        font-size: 40px;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        margin-left:0vw;
+        
+    }
+    
+  }
