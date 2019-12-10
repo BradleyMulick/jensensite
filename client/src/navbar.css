@@ -1,22 +1,26 @@
-.name-logo {
-    font-size: 25px;
-    margin-left:5vw 
-}
-
-.page-link {
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    display: block;
-    margin-left:5vw 
-}
-
 .navbar {
     display: block;
+    width: 20%;
+    height: auto;
     position: fixed;
-    height: 100%;
     padding-top: 30vh;
-    text-align: left
+    text-align: left 
+    
+  }
+
+  .name-logo {
+      font-size: 30px;
+      margin-left:1vw; 
+      text-align: center
+  }
+
+  .page-link {
+      font-size: 25px;
+      text-decoration: none;
+      color: black;
+      display: block;
+      text-align: center
+      
   }
 
 
@@ -30,20 +34,48 @@
       height: auto;
       position: relative;
       padding-top: 0vh;
-      text-align: center  
+      text-align: center;  
       
     }
 
     .name-logo {
-        margin-left:0vw 
+        margin-left:1vw; 
     }
 
     .page-link {
-        font-size: 40px;
+        font-size: 25px;
         text-decoration: none;
         color: black;
         display: inline-block;
-        margin-left:0vw;
+        margin-left:2vw;
+        
+    }
+    
+  }
+
+
+@media screen and (min-width: 1300px) {
+    .navbar {
+      display: block;
+      width: 20%;
+      height: auto;
+      position: fixed;
+      padding-top: 30vh;
+      text-align: left 
+      
+    }
+
+    .name-logo {
+        margin-left:1vw; 
+        font-size: 30px
+    }
+
+    .page-link {
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-left:2vw;
         
     }
     
