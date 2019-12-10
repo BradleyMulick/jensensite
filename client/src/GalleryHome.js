@@ -12,7 +12,6 @@ const GalleryHome = () => {
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/tq8Nw43CHdbdwNJtq9LlNyibTXF3IyX2m6vUIxNBUx3igOas09t5YoqQxGU=w2400" onclick="openModal();currentSlide(5)" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/6oGFDlZskVcRdsLTWqeJMPZn85knH-gvj9XrY-zDLwXv2OYOIKFs5UcTy1w" onclick="openModal();currentSlide(5)" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/jeKutJI50udixZnTwimmn9vpCi1TO-i5YVzBRPTEEOP02EowsohEjbXfVPw=w2400" />
-                        
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh6.googleusercontent.com/RtiS6sG95IzSsL769ffX-r8qNSk5saGoVXlXP99_8-OvnM2S_OihHGjY1uw=w2400" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/0lW5NgEIxbw_dfcvXCFel0bS62NcxYl8x-kN7vc9IhsVx_k1cUOCQyNAzO4" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/6pr5MTucT0w16Pk4ShTsIbhtbSxBUKaNjCvB_t_wLYVm1kr4cMtfb_d1t94" />
