@@ -19,9 +19,9 @@ const GalleryHome = () => {
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/IXKiGkHJULRz_F0ab3bNN48C86XZuFNqxQNXe3n5hwy-G-2xvZ6psu_2fok" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh6.googleusercontent.com/AXbrOTrejInO-yhwu2c4j7rmZpMgYwUvzKHMmMleUIxO_OWIa2Hnfu_e7M8" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/MIYGiO0ZPInTHbjNMmasnxihN9fGwkEFz-2UGzlfVyoUGnJVr-TlqTLuZlw" />
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/usshMsJ5-OiZ1XpUM4UogJAoXcC8VYirKiBs7ODqG4yRHkO6yD-Cwr4ZRYQ" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/hnPBu1Rp0Zceequ0loxoGTU81IE3J8Vbo5qC9AU_C69SG6kbI_xAUkt34HA" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/Lb_t93Fj8unGlt80qNTBzZHgh_iv11g4SQR0_u7dlhgrjGt4h6wuCs81Gyw" />
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/usshMsJ5-OiZ1XpUM4UogJAoXcC8VYirKiBs7ODqG4yRHkO6yD-Cwr4ZRYQ" />
                     </div>
         
 				    <div className="column">

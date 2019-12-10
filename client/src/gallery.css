@@ -15,6 +15,10 @@
     box-shadow: 0px 3px 6px 0px rgba(133, 133, 133, 0.8);
   }
 
+  .column img {
+      max-height: 90vh;
+      width: auto;
+  }
 
 
 .row {
