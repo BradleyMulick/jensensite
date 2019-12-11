@@ -3,7 +3,7 @@
     width: 20%;
     height: auto;
     position: fixed;
-    padding-top: 30vh;
+    padding-top: 10vh;
     text-align: left 
     
   }
@@ -11,7 +11,9 @@
   .name-logo {
       font-size: 35px;
       margin-left:1vw; 
-      text-align: center
+      text-decoration: none;
+      text-align: center;
+      color: black
   }
 
   .page-link {
@@ -61,7 +63,7 @@
       width: 20%;
       height: auto;
       position: fixed;
-      padding-top: 30vh;
+      padding-top: 10vh;
       text-align: left 
       
     }
