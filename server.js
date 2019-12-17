@@ -23,6 +23,7 @@ mongoose.connect("mongodb://localhost:27017/productdb",
 
 // routes...........
 app.use('/products', require('./routes/productRouter.js'))
+app.use("/auth", require("./routes/authRouter.js"))
 
 
 
