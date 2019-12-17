@@ -6,7 +6,6 @@ import About from './About'
 import { Switch, Route } from "react-router-dom";
 
 
-
 function App() {
   return (
     <div className="App">

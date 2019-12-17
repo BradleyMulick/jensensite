@@ -54,12 +54,8 @@ code {
 .about {
   width: 80vw;
   display: inline-block;
-  margin: 10vh;
-  margin-left: 15vw;
+  margin-top: 10vh;
   text-align: center;
-  align-self: center;
-  
-  
 }
 
 
@@ -68,21 +64,12 @@ code {
     display: block;
     width: 100%;
     height: auto;
-    margin: 1vh;
     
   }
 
   .jensen-prof {
     width: 80%
   }
-
-  .products-mapped img {
-    width: 90vw;
-    max-height: 95vh
-    
-  }
-  
-  
   
 }
 
@@ -92,22 +79,6 @@ code {
 }
 
 
-
-.products-mapped {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
-  
-  /* align-items: center;
-  align-self: center */
-}
-
-.products-mapped img {
-  width: 40vw;
-  height: auto;
-  max-height: 95vh
-  
-}
 
 
 

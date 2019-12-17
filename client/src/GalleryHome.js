@@ -1,18 +1,16 @@
 import React from 'react'
 import './index.css';
-import Products from './Products'
 
 const GalleryHome = () => {
     return (
         <div className='gallery-home'>
-            
                 <div className="row">
                     <div className="column">
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/KARqN171mUeo0RqT18TCmLr1uLCtO_N1QA8yIuPDz92IAGAFyUpvg2R7vTo=w2400" />
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/RYwYzWLRs6lYUkFqidHEcJMuqYTLfcGz3_4SyynAJTVnVLoshLh7-BMqOq0=w2400" />
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/FaMaNkrEU0SufTNYDtrhZLdxg0eb7GMmEaJN6AUKdYPROqOATMLrEpumAn4=w2400" /> 
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/tq8Nw43CHdbdwNJtq9LlNyibTXF3IyX2m6vUIxNBUx3igOas09t5YoqQxGU=w2400" />
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/6oGFDlZskVcRdsLTWqeJMPZn85knH-gvj9XrY-zDLwXv2OYOIKFs5UcTy1w" />
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/KARqN171mUeo0RqT18TCmLr1uLCtO_N1QA8yIuPDz92IAGAFyUpvg2R7vTo=w2400" onclick="openModal();currentSlide(1)" />
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/RYwYzWLRs6lYUkFqidHEcJMuqYTLfcGz3_4SyynAJTVnVLoshLh7-BMqOq0=w2400" onclick="openModal();currentSlide(3)" />
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/FaMaNkrEU0SufTNYDtrhZLdxg0eb7GMmEaJN6AUKdYPROqOATMLrEpumAn4=w2400" onclick="openModal();currentSlide(3)" /> 
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/tq8Nw43CHdbdwNJtq9LlNyibTXF3IyX2m6vUIxNBUx3igOas09t5YoqQxGU=w2400" onclick="openModal();currentSlide(5)" />
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/6oGFDlZskVcRdsLTWqeJMPZn85knH-gvj9XrY-zDLwXv2OYOIKFs5UcTy1w" onclick="openModal();currentSlide(5)" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/jeKutJI50udixZnTwimmn9vpCi1TO-i5YVzBRPTEEOP02EowsohEjbXfVPw=w2400" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh6.googleusercontent.com/RtiS6sG95IzSsL769ffX-r8qNSk5saGoVXlXP99_8-OvnM2S_OihHGjY1uw=w2400" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/0lW5NgEIxbw_dfcvXCFel0bS62NcxYl8x-kN7vc9IhsVx_k1cUOCQyNAzO4" />
@@ -26,9 +24,9 @@ const GalleryHome = () => {
                     </div>
         
 				    <div className="column">
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/ibRNFX51DNOZsfOLEn_e7ePdj_Y3P_CQnWY6dasWKtGkeCcikY7pUlDv90A=w2400"   />
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/Cx88ukoC7lJEr-NRJttzQfy3_6MUV8F8wLnUZhdXO9dQd-XD51CxdMXBNhg"   /> 
-                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/CgI3KoUUjZz-arNovXvfa_ZfA3POElAdhWv7sn94cQJYlPUephBbANkSWJ4=w2400"  />
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/ibRNFX51DNOZsfOLEn_e7ePdj_Y3P_CQnWY6dasWKtGkeCcikY7pUlDv90A=w2400"  onclick="openModal();currentSlide(1)" />
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/Cx88ukoC7lJEr-NRJttzQfy3_6MUV8F8wLnUZhdXO9dQd-XD51CxdMXBNhg"  onclick="openModal();currentSlide(1)" /> 
+                        <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/CgI3KoUUjZz-arNovXvfa_ZfA3POElAdhWv7sn94cQJYlPUephBbANkSWJ4=w2400" onclick="openModal();currentSlide(5)" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh6.googleusercontent.com/8EQHgO6EPVVxs4pHHLUXO7fJqvUf-Hx4ZevmlgLnixrd4O0ETuPW78Td5Fc=w2400" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/6pr5MTucT0w16Pk4ShTsIbhtbSxBUKaNjCvB_t_wLYVm1kr4cMtfb_d1t94=w2400" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh4.googleusercontent.com/fTQKjiWTaglwsAUEFEBM78ROoltZa-yAuiUpJh5yqyyqer-Sz0Nm2vlZdhY=w2400" />
