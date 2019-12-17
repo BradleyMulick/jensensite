@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "morgan": "^1.9.1",
     "react-router-dom": "^5.1.2"
   }
 }
