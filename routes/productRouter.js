@@ -3,6 +3,14 @@ const productRouter = express.Router()
 const uuid = require('uuid/v4')
 const Product = require('../models/product.js')
 
+
+
+
+
+
+
+
+// GET ALLLLLLLLLLLLL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 productRouter.get('/', (req, res) => {
     Product.find((err, product) => {
         if (err) {
@@ -53,5 +61,23 @@ productRouter.delete('/:_id', (req, res) => {
     })
 })
 
+
+
+// EDITTTTTTT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+productRouter.put("/:_id", (req,res) => {
+    Product.findByIdAndUpdate(
+        { _id: req.params._id },
+        req.body,
+        { new: true },
+        (err, updatedProduct) => {
+            if(err) {
+                res.status(500)
+                return res.send(err)
+            }
+            return res.status(201).send(updatedProduct)
+        }
+    )
+})
 
 module.exports = productRouter

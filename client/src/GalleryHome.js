@@ -8,7 +8,6 @@ const GalleryHome = () => {
             
                 <div className="row">
                     <div className="column">
-                    <Products />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/KARqN171mUeo0RqT18TCmLr1uLCtO_N1QA8yIuPDz92IAGAFyUpvg2R7vTo=w2400" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh3.googleusercontent.com/RYwYzWLRs6lYUkFqidHEcJMuqYTLfcGz3_4SyynAJTVnVLoshLh7-BMqOq0=w2400" />
                         <img onContextMenu={(e)=> e.preventDefault()} src="https://lh5.googleusercontent.com/FaMaNkrEU0SufTNYDtrhZLdxg0eb7GMmEaJN6AUKdYPROqOATMLrEpumAn4=w2400" /> 
