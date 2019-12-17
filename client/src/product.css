@@ -1,0 +1,57 @@
+.product-box {
+    /* display: inline-block;
+    height: auto;
+    
+    vertical-align: middle; */
+  
+}
+
+.prod-map {
+   width: 80vw;
+  
+  
+}
+
+
+.column1 {
+    display: inline-block;
+    width: 38vw;
+    margin-right: 3vw
+}
+
+
+.column2 {
+    display: inline-block;
+    width: 38vw
+}
+
+
+@media screen and (max-width: 800px) {
+    .column1 {
+        
+        width: 90vw;
+    }
+    .column2 {
+        width: 90vw;
+    }
+
+    .prod-map {
+        width: 95vw
+    
+  }
+  .product-box {
+    /* display: inline-block;
+    height: auto;
+    
+    vertical-align: middle; */
+    width: 100%;
+  
+}
+
+.product-image {
+    max-height: 95vw;
+    width: 100vw;
+}
+
+  
+}
