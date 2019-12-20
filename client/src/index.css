@@ -20,6 +20,11 @@ code {
 }
 
 
+.postIt {
+  text-align: center;
+  
+}
+
 
 
 
@@ -81,5 +86,15 @@ code {
 
 
 
+.postImages {
+  width: 80vw;
+  display: inline-block;
+}
 
+.postImages img {
+  display: inline-block;
+  max-width: 35vw;
+  height: auto;
+  margin-right: 15px
+}
 

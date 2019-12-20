@@ -3,7 +3,8 @@ import React from 'react'
 function AuthForm(props){
     const { handleChange, handleSubmit, inputs: {username, password}} = props
     return (
-        <form onSubmit={handleSubmit}>
+        <form  onSubmit={handleSubmit}>
+            <h1>Sign-in</h1>
             <input 
                 type="text" 
                 name="username" 

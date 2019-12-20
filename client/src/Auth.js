@@ -32,7 +32,7 @@ function Auth(){
         setInputs(initState)
     }
     return (
-        <div>
+        <div className="fromPageStyle">
             {/* <AuthForm 
                 inputs={inputs}
                 handleChange={handleChange}
