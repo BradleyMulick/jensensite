@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
+const expressJwt = require('express-jwt')
 const PORT = 8080
 const path = require('path')
 require("dotenv").config()
@@ -24,10 +25,20 @@ mongoose.connect("mongodb://localhost:27017/productdb",
 // routes...........
 app.use('/products', require('./routes/productRouter.js'))
 app.use("/auth", require("./routes/authRouter.js"))
+app.use("/api", expressJwt({secret: process.env.SECRET}))
+
+app.use("/api/post", require("./routes/postRouter.js"))
 
 
 
-
+// errr handler 
+app.use((err, req, res, next) => {
+    console.log(err)
+    if(err.name === "UnauthorizedError"){
+        res.status(err.status)
+    }
+    return res.send({errMsg: err.message})
+})
 
 
 
