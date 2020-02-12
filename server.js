@@ -28,6 +28,7 @@ app.use("/auth", require("./routes/authRouter.js"))
 app.use("/api", expressJwt({secret: process.env.SECRET}))
 
 app.use("/api/post", require("./routes/postRouter.js"))
+app.use("/post", require("./routes/publicRouter.js"))
 
 
 
